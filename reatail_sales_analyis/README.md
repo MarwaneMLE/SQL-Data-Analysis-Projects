@@ -16,6 +16,8 @@ This project involves analyzing retail sales using SQL qnd data analysis techniq
 
 ### Database Setup
 
-- **Database creation:**
+- **Database creation:** Every SQL project start with database creation, so we will creating database names `retail_sales_db`.
 
-- **Table creation:**
+- **Table creation:** We create table named `retail_sales` to store the sales data. The table columns name are transactions ID, sale date, sale time, customer ID, gender, age, category , quantiy, price per unit, cogs(cost of goods sold), total sale.
+
+After creation of database ans table, we will import cvs file into our created table.
