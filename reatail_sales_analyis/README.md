@@ -283,7 +283,7 @@ GROUP BY  category
 ```
 
 #### 10. Write a SQL query to create each shift  of sale time
--- (Example Morning <12, Afternoon Between 12 & 17, Evening >17)
+Example: Morning <12, Afternoon Between 12 & 17, Evening >17)
 ```sql
 SELECT 
 	transactions_id,
@@ -306,6 +306,8 @@ FROM
 ) t
 ORDER BY total_sale DESC
 ```
+
+ 
 
  
  
