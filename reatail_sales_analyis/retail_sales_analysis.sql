@@ -1,6 +1,5 @@
 -- Create database
 DROP DATABASE IF EXISTS retail_sales_db;
-
 CREATE DATABASE retail_sales_db;
 
 -- Use of created database
@@ -8,7 +7,6 @@ USE retail_slaes_db;
 
 -- Create a table
 DROP TABLE IF EXISTS retail_sales;
-
 CREATE TABLE retail_sales(
 	transactions_id INT PRIMARY KEY,
 	sale_date DATE,
